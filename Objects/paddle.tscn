@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://du4tp52dcud5s"]
+
+[ext_resource type="Script" path="res://Objects/paddle.gd" id="1_iuk33"]
+[ext_resource type="ArrayMesh" uid="uid://c0bme1h7lhr7k" path="res://Models/Paddle.obj" id="2_tuehi"]
+
+[node name="Paddle" type="Node3D"]
+script = ExtResource("1_iuk33")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_tuehi")
